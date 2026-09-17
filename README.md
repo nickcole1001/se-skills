@@ -1,6 +1,6 @@
 # SE Skills
 
-Claude Code skills for Sales Engineers. Each `.skill` file is a self-contained Claude Code skill that can be installed via the plugin marketplace.
+Agent skills for Sales Engineers, packaged as a [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces) that works with both **Claude Code** and **Codex**. Each skill follows the open [agentskills.io](https://agentskills.io/home) format: a `skills/<name>/SKILL.md` file plus bundled `scripts/`, `references/`, and `assets/`.
 
 ## Skills
 
@@ -11,7 +11,31 @@ Claude Code skills for Sales Engineers. Each `.skill` file is a self-contained C
 
 ## Installation
 
-Install a skill by pointing Claude Code's plugin system at this repo, or download the individual `.skill` file and install it directly.
+### Claude Code
+
+Add this repo as a plugin marketplace, then install the skills you want:
+
+```
+/plugin marketplace add nickcole1001/se-skills
+/plugin install account-dossier@se-skills
+/plugin install value-pyramid@se-skills
+```
+
+Alternatively, download an individual `.skill` file from this repo and install it directly.
+
+### Codex
+
+Codex discovers skills by scanning `.agents/skills` from the repository root. Clone this repo and open it with Codex — the skills under [`skills/`](skills/) are exposed at `.agents/skills` via a symlink, so no extra setup is needed.
+
+To make a skill available outside this repo (user scope), copy or symlink its folder into `$HOME/.agents/skills/`:
+
+```
+ln -s "$(pwd)/skills/account-dossier" "$HOME/.agents/skills/account-dossier"
+```
+
+### Any other agentskills.io-compatible client
+
+Each folder under [`skills/`](skills/) is a standalone, spec-compliant skill directory — point any compatible agent at `skills/account-dossier` or `skills/value-pyramid` directly.
 
 ## Relationship between the two skills
 
