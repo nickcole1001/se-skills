@@ -1,0 +1,10 @@
+{
+  "name": "value-pyramid",
+  "displayName": "Value Pyramid",
+  "version": "1.0.0",
+  "description": "Researched, top-down account strategy deck built from the customer's own public commitments, cascading to the gap your product fills.",
+  "author": { "name": "Nick Cole" },
+  "homepage": "https://github.com/nickcole1001/se-skills/blob/main/value-pyramid-README.md",
+  "repository": "https://github.com/nickcole1001/se-skills",
+  "keywords": ["sales-engineering", "account-strategy", "pptx"]
+}

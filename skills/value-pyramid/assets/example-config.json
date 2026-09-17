@@ -1,0 +1,211 @@
+{
+  "colors": {
+    "accent": "EC0000",
+    "accentDark": "B00000",
+    "accentLight": "FF8A80"
+  },
+  "title_slide": {
+    "title": "Santander — the AI-Native Bank",
+    "subtitle": "Top-down from group vision to where Stack Internal earns a seat:\nvision → strategic plan → AI programme → execution → the knowledge gap",
+    "footer": "Nick  ·  Solutions Engineering  ·  September 2026  ·  Sources: Investor Day Feb 2026, santander.com, public reporting",
+    "notes": "Start from what the account has publicly committed to, cascade down to the capability gap Stack Internal fills."
+  },
+  "pyramid_slide": {
+    "heading": "The pyramid at a glance",
+    "levels": [
+      {
+        "label": "VISION",
+        "text": "“AI-native bank” — a digital bank with branches"
+      },
+      {
+        "label": "STRATEGIC PLAN 2026–28",
+        "text": "210M+ customers · €20bn+ profit · RoTE >20% · ONE Transformation"
+      },
+      {
+        "label": "AI PROGRAMME",
+        "text": "€1bn AI business value 2026–28 · OpenAI partnership · agentic AI roadmap"
+      },
+      {
+        "label": "EXECUTION TODAY",
+        "text": "40% of code AI-written · 17k using agentic AI · rollout to all 185k employees"
+      },
+      {
+        "label": "THE GAP → STACK INTERNAL",
+        "text": "Trusted, current, human-validated knowledge to ground all of it"
+      }
+    ],
+    "caption": "Everything below the top line is public, quantified, and dated — the pyramid writes itself.",
+    "notes": "One-slide version for exec conversations. Each level cascades into the next; the execution level creates the knowledge-quality gap we fill."
+  },
+  "vision_slide": {
+    "heading": "Levels 1–2 — Vision and the 2026–28 plan",
+    "subheading": "Set at Investor Day, London, Feb 2026 — Ana Botín (Executive Chair), Héctor Grisi (CEO)",
+    "left_card": {
+      "icon": "FiTarget",
+      "title": "The vision",
+      "bullets": [
+        "“AI-native” bank — every decision, process and interaction powered by data and intelligent technology",
+        "“Digital bank with branches” — AI plus human touch as the stated differentiator",
+        "An open global financial services platform, simplified and scaled across Europe and the Americas"
+      ]
+    },
+    "right_card": {
+      "icon": "FiTrendingUp",
+      "title": "The commitments",
+      "bullets": [
+        "210M+ customers by 2028 (from 180M end-2025)",
+        "€20bn+ profit, RoTE above 20%, efficiency ratio ~36%",
+        "ONE Transformation as the delivery engine — simplification, common platforms (Gravity), global businesses",
+        "Data & AI named as a key lever, “fully embedded in the businesses”"
+      ]
+    },
+    "notes": "Discovery anchor: any conversation can be tied to a board-level number. The efficiency ratio target is where knowledge productivity arguments land hardest."
+  },
+  "programme_slide": {
+    "heading": "Level 3 — The AI programme",
+    "subheading": "Owned by Chief Data & AI Officer Ricardo Martín Manjón; technology strategy under Group COO/CTO Juan Olaizola",
+    "banner": {
+      "big": "€1bn+",
+      "text": "targeted business value from AI, 2026–2028 — revenue plus cost reduction.\n€35M banked in Q1 2026; on track to exceed €200M this year."
+    },
+    "pillars": [
+      {
+        "icon": "FiCpu",
+        "title": "AI in every business",
+        "desc": "Embedded across product, credit, marketing, service and operations — hyper-personalised journeys, frontline productivity, end-to-end process automation."
+      },
+      {
+        "icon": "FiZap",
+        "title": "AI at the platform core",
+        "desc": "Gravity cloud core-banking platform scaled across markets; agentic AI and fully conversational banking on the 2026–27 roadmap."
+      },
+      {
+        "icon": "FiShield",
+        "title": "An AI ecosystem",
+        "desc": "OpenAI partnership (ChatGPT Enterprise) plus Microsoft, Amazon and startups — deliberately modular and vendor-neutral architecture."
+      }
+    ],
+    "footnote": "Mandatory AI training for all employees from 2026, with a core “Responsible AI” module — adoption is policy, not optional.",
+    "notes": "The 'vendor-neutral, modular' language is the door — they've designed for best-of-breed components, not a single-vendor stack."
+  },
+  "execution_slide": {
+    "heading": "Level 4 — Execution is already visible",
+    "stats": [
+      {
+        "n": "40%",
+        "d": "of all code in June 2026 was developed by AI"
+      },
+      {
+        "n": "17,000+",
+        "d": "people working with agentic AI in software development (May 2026)"
+      },
+      {
+        "n": "185,000",
+        "d": "employees — AI tools extended to the entire workforce (June 2026)"
+      },
+      {
+        "n": "40%+",
+        "d": "of contact-centre interactions supported by AI copilots"
+      },
+      {
+        "n": "100k",
+        "d": "AML alerts a year processed by Openbank AI models — hours to minutes"
+      },
+      {
+        "n": "20–30%",
+        "d": "developer productivity gains reported on AI-assisted tasks"
+      }
+    ],
+    "takeaway_plain": "Read the bottom row of the pyramid from these numbers: ",
+    "takeaway_bold": "when 40% of code is machine-written and every employee has an AI assistant, the quality of the knowledge those systems draw on becomes the constraint.",
+    "notes": "These are the discovery gifts — every stat invites a question that bridges to the bottom of the pyramid."
+  },
+  "gap_slide": {
+    "heading": "Level 5 — The gap Stack Internal fills",
+    "subheading": "The knowledge substrate underneath an AI-native bank",
+    "rows": [
+      {
+        "title": "Ground the agents",
+        "desc": "Agentic AI and conversational banking are only as good as the knowledge they retrieve. Stack Internal provides the curated, current, human-validated layer — with provenance — that generic document stores can't."
+      },
+      {
+        "title": "Close the loop on AI-written code",
+        "desc": "40% AI-written code means engineering knowledge decays fast unless capture is built into the workflow. The closed loop — ask, answer, validate, reuse — turns 17,000 agentic developers into a compounding asset, via MCP write-back rather than read-only retrieval."
+      },
+      {
+        "title": "Model-agnostic by design",
+        "desc": "Their architecture is deliberately modular and vendor-neutral. We are not competing with the OpenAI partnership — we're the knowledge layer every model in their ecosystem draws from."
+      },
+      {
+        "title": "Governance they can defend",
+        "desc": "Responsible AI is a mandatory training module and a regulatory reality. Attribution, SME validation and Content Health give auditable answers to “why did the agent say that?”"
+      }
+    ],
+    "positioning_line": "“You've committed €1bn of value to AI. We make sure the knowledge it runs on is worth trusting.”",
+    "notes": "Lead with grounding agents and the closed loop; keep the model-vendor point defensive-ready, not defensive-sounding."
+  },
+  "objections_slide": {
+    "heading": "Likely objections — and how to handle them",
+    "subheading": "INTERNAL — not for sharing with the account",
+    "objections": [
+      {
+        "archetype": "Vendor consolidation",
+        "objection": "We're all-in on OpenAI and Microsoft. We want fewer tools, not more — why add another platform to the stack?",
+        "counter_anchor": "You've said your architecture is deliberately modular and vendor-neutral.",
+        "counter": "Stack Internal isn't a model or a copilot — it's the knowledge layer every model in your ecosystem retrieves from. Adding it doesn't expand the vendor footprint; it improves the fidelity of everything already in it."
+      },
+      {
+        "archetype": "Incumbent knowledge store",
+        "objection": "We already have SharePoint and internal wikis. Our people know where to find things.",
+        "counter_anchor": "40% of your code is now written by AI agents, not people.",
+        "counter": "When agents are the consumers, people knowing where to find things stops being the measure. The question is whether knowledge is structured, validated, and retrievable by a machine with provenance — and whether it's being captured as it's created."
+      },
+      {
+        "archetype": "Build vs buy",
+        "objection": "We have 6,000+ developers and strong AI capability internally. We could build something like this.",
+        "counter_anchor": "You've committed €1bn to AI business value in three years.",
+        "counter": "Building a knowledge platform is a multi-year product problem, not an AI problem. Every month that engineering knowledge isn't being captured and validated is decay you can't get back. The opportunity cost is measured in the productivity gains you've already published."
+      },
+      {
+        "archetype": "Security and data governance",
+        "objection": "We have strict controls on where data lives. We can't have sensitive IP going to a third party.",
+        "counter_anchor": "Your Responsible AI module is now mandatory for all 185,000 employees.",
+        "counter": "Stack Internal holds engineering and institutional knowledge — not customer data. Attribution, SME validation, and Content Health give you the audit trail your Responsible AI policy requires. We can deploy in your environment with no external data movement."
+      },
+      {
+        "archetype": "Adoption and change fatigue",
+        "objection": "We've just rolled out AI tools to the entire workforce. Change fatigue is real — we can't ask people to adopt another new thing.",
+        "counter_anchor": "The closed loop works inside the tools your developers are already using.",
+        "counter": "Stack Internal integrates via MCP into the agentic coding environment your 17,000 developers are already in. The ask is ask-and-validate here rather than learn a new product — it surfaces at the moment of work, not as a separate destination."
+      }
+    ],
+    "notes": "Lead with the vendor consolidation counter — it's the most common opening objection in a bank with a named AI partner. Handle the security objection before the demo, not during it. Never argue against the incumbent knowledge store directly — redirect to what the agents retrieve from."
+  },
+  "entry_slide": {
+    "heading": "Entry points and next moves",
+    "cards": [
+      {
+        "icon": "FiUsers",
+        "title": "Who to reach",
+        "desc": "Chief Data & AI Officer organisation (Ricardo Martín Manjón) owns the €1bn value target. Group COO/CTO Juan Olaizola owns the 2026–27 technology strategy. Developer tooling and platform engineering under Gravity are the practitioner door."
+      },
+      {
+        "icon": "FiKey",
+        "title": "The UK angle",
+        "desc": "Santander UK just completed the TSB acquisition — a major integration with heavy engineering knowledge-transfer risk. Integration programmes are acute, time-boxed knowledge problems: a natural first conversation for a UK-based team."
+      },
+      {
+        "icon": "FiFlag",
+        "title": "Discovery questions",
+        "desc": "Where does validated engineering knowledge live for your 17,000 agentic developers? What grounds your agents' answers today, and can you show provenance? How is TSB integration knowledge being captured before it walks?"
+      },
+      {
+        "icon": "FiTrendingUp",
+        "title": "Next moves",
+        "desc": "Build the contact map against the CD&AI and platform orgs. Line up the closed-loop / MCP write-back demo as the stakeholder-access vehicle. Track quarterly AI value announcements as timing triggers."
+      }
+    ],
+    "footer": "Same system as every other account: thesis into the account plan, actions into the tracker, every touchpoint feeds back.",
+    "notes": "Verify current org contacts before outreach; names are from public reporting."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "se-skills",
+  "owner": {
+    "name": "Nick Cole",
+    "url": "https://github.com/nickcole1001"
+  },
+  "description": "Sales Engineering skills for account research and account strategy: deep internal account dossiers and top-down value pyramid decks.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "account-dossier",
+      "source": "./skills/account-dossier",
+      "description": "Deep internal intelligence dossier on a target account — stakeholder map, strategic intel, technical architecture, commercial signals, and objection handling.",
+      "version": "1.0.0",
+      "author": { "name": "Nick Cole" },
+      "repository": "https://github.com/nickcole1001/se-skills",
+      "keywords": ["sales-engineering", "account-research", "meddicc"],
+      "category": "sales"
+    },
+    {
+      "name": "value-pyramid",
+      "source": "./skills/value-pyramid",
+      "description": "Researched, top-down account strategy deck built from the customer's own public commitments, cascading to the gap your product fills.",
+      "version": "1.0.0",
+      "author": { "name": "Nick Cole" },
+      "repository": "https://github.com/nickcole1001/se-skills",
+      "keywords": ["sales-engineering", "account-strategy", "pptx"],
+      "category": "sales"
+    }
+  ]
+}

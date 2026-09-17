@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "account_name": "Barclays",
+    "subtitle": "Expansion campaign with downsell defence — break into the central AI team ahead of the June 2027 renewal",
+    "account_type": "existing",
+    "renewal_date": "30 June 2027",
+    "expansion_target": "Central AI team / O'Neill org — from IB buying silo",
+    "se_name": "Nick",
+    "last_researched": "2026-09-01",
+    "new_since_refresh": []
+  },
+
+  "layer1_stakeholders": {
+    "last_researched": "2026-09-01",
+    "intro": "Primary access gap: no direct visibility into who owns AI decisions above the existing buying silo. Key finding: Antoinette O'Neill appointed Group CIO with explicit AI strategy ownership, Sep 2025. She is the highest-leverage introduction target.",
+    "stakeholders": [
+      {
+        "name": "Antoinette O'Neill",
+        "title": "Group Chief Information Officer — AI strategy",
+        "buying_role": "Economic buyer (target)",
+        "coverage_status": "Not yet reached",
+        "role_in_ai_programme": "Accountable executive for Barclays' AI strategy, Copilot rollout, and agentic roadmap. Promoted Sep 2025, transitioned mid-Oct 2025. Previously COO/CIO of the Investment Bank since 2019.",
+        "why_they_care": "Her scorecard depends on Copilot ROI — if adoption stalls because retrieved knowledge is stale or fragmented, her AI programme's ROI story weakens. The Graph connector's read-only limit is a known gap in something she now owns. Stack Internal de-risks her own number.",
+        "career_previous": "Investment Bank COO/CIO at Barclays since 2019 — deep IB institutional knowledge. Career history before Barclays requires LinkedIn verification.",
+        "career_current_org": "Lateral move from IB COO/CIO to Group CIO with expanded AI mandate — new role, new accountability, building her central programme.",
+        "career_velocity": "Senior appointment Sep 2025 — 12 months into role, still establishing her programme. In the window where wins matter for internal credibility.",
+        "public_voice": [
+          {
+            "type": "Press announcement",
+            "description": "Appointed Group CIO with AI strategy responsibility — Bloomberg Law, Sep 2025",
+            "url": "https://news.bloomberglaw.com/",
+            "date": "Sep 2025"
+          }
+        ],
+        "champion_health": {
+          "access_to_power": { "status": "green", "note": "Reports into Group Co-COOs Bright and Darling. Direct line to ExCo." },
+          "reason_to_move": { "status": "green", "note": "Her programme's success depends on AI knowledge quality. Graph connector gap is a known problem." },
+          "willing_to_sell_internally": { "status": "unknown", "note": "No direct contact yet. Assess in first conversation." }
+        },
+        "relationship_notes": "No direct coverage yet. Victoria (existing contact) is the likely bridge — ask whether she has visibility into O'Neill's org."
+      },
+      {
+        "name": "Craig Bright",
+        "title": "Group Co-Chief Operating Officer; Barclays Execution Services Co-CEO",
+        "buying_role": "Economic buyer (senior)",
+        "coverage_status": "Not yet reached",
+        "role_in_ai_programme": "Group ExCo member. Owns technology, data, cybersecurity, procurement and controls Group-wide. Co-signed O'Neill's appointment memo. Joined as Group CIO in 2020.",
+        "why_they_care": "Legacy fragmentation is a named problem in his remit. A knowledge substrate cutting duplicate problem-solving across a decades-old estate sits squarely in his £2bn savings mandate. Provenance and permissioned knowledge also sit in his risk lane — controls, not just efficiency.",
+        "career_previous": "Group CIO from 2020 before moving to Group Co-COO — deep technology credibility within the firm.",
+        "career_current_org": "ExCo attendance for technology and cyber agenda from Oct 2022. Long-tenured in the role — established, will need a strong business case.",
+        "career_velocity": "Senior, stable, entrenched — not building his reputation, maintaining it. Responds to proof and numbers, not architecture pitches.",
+        "public_voice": [
+          {
+            "type": "Investor comms",
+            "description": "Listed as Group ExCo attendee for technology agenda — Barclays 20-F FY2022",
+            "url": "https://www.sec.gov/",
+            "date": "Feb 2023"
+          }
+        ],
+        "champion_health": {
+          "access_to_power": { "status": "green", "note": "ExCo member — highest confirmed level of access." },
+          "reason_to_move": { "status": "amber", "note": "Cost efficiency mandate creates alignment, but needs a quantified ROI model to engage." },
+          "willing_to_sell_internally": { "status": "unknown", "note": "Not yet in contact. Alistair exec-to-exec may be the path in." }
+        },
+        "relationship_notes": "Alistair (our VP Sales) may have network proximity — ask whether he can make an exec-to-exec introduction."
+      },
+      {
+        "name": "Anne Marie Darling",
+        "title": "Group Co-Chief Operating Officer",
+        "buying_role": "Influencer",
+        "coverage_status": "Not yet reached",
+        "role_in_ai_programme": "Co-signed O'Neill's appointment memo alongside Bright. Joint owner of the reporting line into which the Group CIO role sits.",
+        "why_they_care": "Operationally focused — cares about whether AI investments actually move measurable KPIs, not whether the architecture is elegant. Proof-oriented, not pitch-oriented.",
+        "career_previous": "Limited public profile — verify via LinkedIn before outreach.",
+        "career_current_org": "Co-COO alongside Bright — complementary focus areas (Bright: technology/controls; Darling: likely operations/delivery).",
+        "career_velocity": "Senior, stable.",
+        "public_voice": [],
+        "champion_health": null,
+        "relationship_notes": "Least documented of the three. Approach via O'Neill or Bright before direct contact."
+      },
+      {
+        "name": "Victoria",
+        "title": "Internal product owner — Stack Internal (IB)",
+        "buying_role": "Champion (existing)",
+        "coverage_status": "Contacted",
+        "role_in_ai_programme": "Running the Copilot vs. Stack Internal side-by-side evaluation. Main working-level contact and current champion. Reports to LT/SLT within the IB.",
+        "why_they_care": "She drove the original Stack Internal deployment. The Copilot evaluation puts her in the position of needing to articulate why Stack Internal delivers value that Copilot alone cannot — she needs our help making that case.",
+        "career_previous": "Internal to Barclays — verify LinkedIn for broader career context.",
+        "career_current_org": "Product ownership role within IB — scope is the existing Stack Internal deployment, not the central AI programme.",
+        "career_velocity": "Established in role. The Copilot evaluation is a career moment — outcome matters for her internally.",
+        "public_voice": [],
+        "champion_health": {
+          "access_to_power": { "status": "amber", "note": "Reports to LT/SLT within IB — has access but limited direct line to Group CIO org. Ask who she knows in O'Neill's team." },
+          "reason_to_move": { "status": "green", "note": "The Copilot evaluation is live and she needs Stack Internal to win it." },
+          "willing_to_sell_internally": { "status": "amber", "note": "Willing within IB scope. Unclear whether she can or will advocate to the central AI team." }
+        },
+        "relationship_notes": "The architecture brief for the Copilot evaluation is the most urgent near-term deliverable — it gives Victoria the ammunition to make the case internally. Ask: who in the central AI team or O'Neill's org does she have a relationship with?"
+      }
+    ],
+    "relationship_matrix": [
+      {
+        "person_a": "Antoinette O'Neill",
+        "person_b": "Craig Bright",
+        "connection": "Direct reporting line — O'Neill reports into Bright and Darling as Co-COOs. Bright co-signed her appointment.",
+        "quality": "— SE to assess from discovery"
+      },
+      {
+        "person_a": "Craig Bright",
+        "person_b": "Anne Marie Darling",
+        "connection": "Joint Co-COO role — both co-signed the O'Neill appointment memo.",
+        "quality": "— SE to assess from discovery"
+      },
+      {
+        "person_a": "Antoinette O'Neill",
+        "person_b": "Victoria",
+        "connection": "O'Neill is Group CIO; Victoria is IB-level product owner. Org proximity — verify working relationship.",
+        "quality": "— SE to assess. Ask Victoria directly."
+      }
+    ]
+  },
+
+  "layer2_strategic": {
+    "last_researched": "2026-09-01",
+    "sections": [
+      {
+        "heading": "The headline promise: RoTE >14% by 2028",
+        "body": "Barclays announced its 2026–2028 targets on 10 February 2026 at its investor day. The centrepiece: Return on Tangible Equity (RoTE) exceeding 14% by 2028 and over £15bn returned to shareholders. FY25 delivered RoTE of 11.3% on group income of £29.1bn (+9%) and profit before tax of £9.1bn (+13%). Q2 2026 RoTE reached 16.1% — ahead of pace. The gap to close: 2.7 percentage points of additional return, with AI-driven efficiency as a named delivery mechanism.",
+        "source_label": "Barclays FY25 Results Announcement, 10 Feb 2026",
+        "source_url": "https://home.barclays/investor-relations/"
+      },
+      {
+        "heading": "CEO framing: technology is the delivery mechanism",
+        "body": "C.S. Venkatakrishnan told analysts on the Q2 2026 earnings call that Barclays' businesses are 'revolving around technology,' built on 'standardized foundations' and 'harmonized systems.' The corporate strategy page states the plan is built around 'creating a simpler organisation, driving digital adoption and standardising data and platforms, reducing complexity and building resilience.' This is not background — it is the stated mechanism for hitting the RoTE target.",
+        "source_label": "Barclays Q2 2026 earnings call, Motley Fool transcript, Jul 2026",
+        "source_url": "https://www.fool.com/"
+      },
+      {
+        "heading": "£2bn structural cost programme",
+        "body": "Barclays has a £2bn structural cost-efficiency target across the plan period. £1.7bn was delivered over 2024–2026. This creates a cost-discipline context for any new vendor conversation — new spend must visibly tie to measurable productivity or cost reduction, not just capability.",
+        "source_label": "Barclays FY25 Annual Report",
+        "source_url": "https://home.barclays/investor-relations/"
+      },
+      {
+        "heading": "The five divisions — and which matter most",
+        "body": "Barclays operates five segments: Barclays UK (NII £7.7bn), Investment Bank (largest by income, PBT £4.6bn), UK Corporate Bank (RoTE 18.9%), Private Bank & Wealth Management (RoTE 26.3%), and US Consumer Bank (RoTE 11.0%). The IB is the existing account anchor. UKCB and PBWM are the most capital-efficient divisions and both explicitly prioritise 'digital adoption' and 'productivity' in their FY25 stated focus areas — expansion targets beyond the IB.",
+        "source_label": "Barclays Bank PLC FY25 Annual Report; Form 20-F FY2025 (SEC)",
+        "source_url": "https://www.sec.gov/"
+      }
+    ]
+  },
+
+  "layer3_technical": {
+    "last_researched": "2026-09-01",
+    "sections": [
+      {
+        "heading": "Microsoft 365 Copilot — 100,000 seats, 'the UI for Barclays AI'",
+        "body": "Barclays has rolled out M365 Copilot to 100,000 colleagues — the full workforce — positioned by Microsoft as 'the UI for Barclays AI.' Rollout began with 50,000, doubled in early 2026. This is the single biggest AI investment they've made and the thing O'Neill's programme is most accountable for delivering ROI on.",
+        "source_label": "Computer Weekly; Microsoft case study; home.barclays 'Scaling AI', Jul 2025",
+        "source_url": "https://www.computerweekly.com/"
+      },
+      {
+        "heading": "Colleague AI Agent — declarative agent on Copilot",
+        "body": "Barclays has built a 'Colleague AI Agent' — an agentic dashboard powered by Microsoft Viva, connecting Copilot to proprietary internal systems. Use cases: desk booking, annual leave, personalised news, HR queries, compliance status. This is the live example of the declarative agent pattern — and it surfaces the Graph connector gap: retrieval-only, no write-back.",
+        "source_label": "Emerj AI Research; FinTech Weekly",
+        "source_url": "https://emerj.com/"
+      },
+      {
+        "heading": "BARXBot — IB-facing GenAI in Global Markets",
+        "body": "BARXBot automates how colleagues in Global Markets handle Requests for Quotes (RFQs) for clients. Named in the Barclays Bank PLC Form 20-F FY2025 — a primary, auditable source. Confirms GenAI is live in the IB for client-facing workflows, not just internal productivity.",
+        "source_label": "Barclays Bank PLC Form 20-F FY2025 (SEC)",
+        "source_url": "https://www.sec.gov/"
+      },
+      {
+        "heading": "AI-assisted code generation — USCB legacy modernisation",
+        "body": "Barclays US Consumer Bank explicitly names AI-assisted code generation as a tool for 'more efficiently updating legacy software.' Named in public comms by Sean Murray, Chief Product & Digital Officer USCB. Confirms the engineering AI use case is live and budget-allocated.",
+        "source_label": "Barclays US / Barclaycard US public blog, 2026",
+        "source_url": "https://www.barclaycardus.com/"
+      },
+      {
+        "heading": "Cloud estate: AWS primary, Azure (M365) alongside",
+        "body": "Barclays runs AWS Bedrock alongside the Microsoft Copilot/Azure estate — confirmed via gtm-presales-mcp research. SAP S/4HANA evaluation underway. Not a single-vendor Microsoft shop — multi-cloud and deliberately modular, which is the positioning wedge.",
+        "source_label": "gtm-presales-mcp research pass, Jun 2026",
+        "source_url": null
+      }
+    ],
+    "wedge": "The Microsoft Graph connector Barclays is using for Copilot retrieval is read-only — it indexes existing content but cannot write validated answers back into the knowledge base. Stack Internal closes this loop via MCP write-back: Copilot retrieves from Stack Internal, engineers validate answers, validated knowledge is captured and surfaces next time. This is not competing with Copilot — it is the memory layer Copilot draws from. The positioning: 'You've made Copilot the UI for Barclays AI. Stack Internal is what it learns from.'"
+  },
+
+  "layer4_commercial": {
+    "last_researched": "2026-09-01",
+    "renewal_date": "30 June 2027",
+    "expansion_target": "Break out of IB buying silo into central AI team / O'Neill org",
+    "trigger_log": [
+      {
+        "date": "2025-09-12",
+        "category": "Leadership change",
+        "event": "Antoinette O'Neill appointed Group CIO with explicit AI strategy responsibility — transitioning from IB COO/CIO",
+        "source_url": "https://news.bloomberglaw.com/"
+      },
+      {
+        "date": "2026-02-10",
+        "category": "Strategic",
+        "event": "Barclays investor day — 2026–28 targets announced: RoTE >14%, £15bn returns, technology as delivery mechanism",
+        "source_url": "https://home.barclays/investor-relations/"
+      },
+      {
+        "date": "2026-07-28",
+        "category": "Financial",
+        "event": "Q2 2026 earnings — RoTE 16.1%, ahead of pace toward 14% target. Venkat reaffirms technology-as-delivery framing",
+        "source_url": "https://www.fool.com/"
+      }
+    ],
+    "qualification_notes": null,
+    "meddicc": {
+      "metrics": {
+        "score": 2,
+        "note": "No quantified productivity story yet. Internal usage data vs. licence count unknown — this is the downsell risk flag. Need: active user count vs. licence count from Stack's own analytics."
+      },
+      "economic_buyer": {
+        "score": 3,
+        "note": "O'Neill is the target economic buyer. Not yet in contact. Victoria is the existing champion but does not control Group-level budget. Score will move to 5 if we get into O'Neill's org."
+      },
+      "decision_criteria": {
+        "score": 2,
+        "note": "Victoria's Copilot evaluation is actively defining these. We need to understand the criteria before we can score or influence them. Priority: get the architecture brief in front of Victoria."
+      },
+      "decision_process": {
+        "score": 2,
+        "note": "TPSP (Third-Party Service Provider) review will be required for any expansion into the central AI org — this can add months. Must be front-loaded. Procurement involvement expected. Work backwards from June 2027."
+      },
+      "identify_pain": {
+        "score": 4,
+        "note": "Pain is well-evidenced from public sources: legacy fragmentation (named in 20-F risk factors), Graph connector read-only limit, compliance risk from AI hallucination at scale. Victoria's evaluation confirms the pain is live."
+      },
+      "champion": {
+        "score": 3,
+        "note": "Victoria is a willing champion within IB scope but has limited reach into the central AI org. We need a second champion in O'Neill's team. Alistair exec-to-exec is the path to unlock this."
+      },
+      "competition": {
+        "score": 3,
+        "note": "Three threats: (1) Microsoft ships native write-back into Graph/Copilot — wait-and-see risk; (2) Barclays builds their own declarative knowledge layer — build-vs-buy instinct is strong in this bank; (3) existing state (no solution) — status quo is always competition in a renewal."
+      }
+    }
+  },
+
+  "value_hypothesis": {
+    "intro": "A testable argument built from public facts — stated before deep discovery. Each why is a hypothesis, not a conclusion. Use it to build the discovery agenda.",
+    "why_anything": {
+      "statement": "We believe Barclays faces a knowledge quality problem at the scale of 100,000 Copilot users because the Graph connector they're using for retrieval is read-only — it can index existing content but cannot capture the validated, current engineering knowledge that agents need to generate trustworthy answers in a regulated environment.",
+      "confirmed_if": "Engineering or product leads acknowledge that Copilot answers are inconsistent or don't reflect internal patterns and decisions — or that they can't show provenance on what Copilot retrieved.",
+      "challenged_if": "They already have a validated internal knowledge layer feeding Copilot that we haven't found in research, or the Colleague AI Agent is scoped only to HR/admin use cases with no engineering knowledge component."
+    },
+    "why_stack_internal": {
+      "statement": "We believe Stack Internal fits because it closes the loop the Graph connector leaves open: MCP write-back means engineers capture and validate knowledge at the point of creation, not retrospectively. The result is a Copilot that retrieves from a living, SME-validated knowledge base rather than stale wikis — with attribution Barclays' own compliance team can audit.",
+      "confirmed_if": "Victoria's Copilot evaluation criteria include answer quality, provenance, or knowledge freshness — all things the Graph connector cannot reliably deliver.",
+      "challenged_if": "Microsoft ships native write-back into Graph before the renewal, or Barclays' platform engineering team is actively building their own solution."
+    },
+    "why_now": {
+      "statement": "The window is O'Neill's first 12–18 months in role. She's building her AI programme's credibility — wins now matter for her internal standing and for the RoTE story she needs to deliver by 2028. The renewal in June 2027 is a forcing function: any expansion motion needs to be qualified and in progress by Q1 2027 at the latest to avoid defaulting to a straight renewal.",
+      "confirmed_if": "Victoria confirms the Copilot evaluation has a decision timeline, or O'Neill's team is actively looking for a knowledge-layer solution.",
+      "challenged_if": "O'Neill's programme is locked into a Microsoft-only architecture review that won't consider third-party solutions until 2027."
+    },
+    "positioning_line": "You've made Copilot the UI for Barclays AI. Stack Internal is what it learns from — and what your compliance team can audit."
+  },
+
+  "objections": {
+    "intro": "Seven objections identified from stakeholder analysis and public intelligence. Counters anchored to Barclays' own published facts and language.",
+    "objections": [
+      {
+        "archetype": "Copilot already does this",
+        "objection": "We've just rolled out Copilot to 100,000 people. That's our AI strategy. Why do we need another layer?",
+        "counter_anchor": "You've positioned Copilot as 'the UI for Barclays AI' — we're not competing with the UI.",
+        "counter": "Stack Internal is what Copilot retrieves from. The Graph connector you're using today is read-only — it indexes what already exists but can't capture validated answers as they're created. Stack Internal closes that loop via MCP write-back, so your £Xm Copilot investment gets better over time rather than plateauing.",
+        "likely_raiser": "O'Neill / Bright",
+        "when": "First meeting / discovery"
+      },
+      {
+        "archetype": "Build vs buy",
+        "objection": "We have enormous platform engineering capability. We could build a declarative knowledge layer ourselves.",
+        "counter_anchor": "Barclays' own strategy is 'standardised foundations' — not bespoke builds for every horizontal capability.",
+        "counter": "Building a knowledge platform is a community and moderation problem, not an engineering problem. The hard part is the workflow that makes engineers actually validate and reuse — not the storage. Every sprint your team spends on this is a sprint not spent on BARXBot, the Colleague AI Agent, or the engineering productivity programme that feeds the RoTE target.",
+        "likely_raiser": "Bright / platform engineering",
+        "when": "Discovery / technical evaluation"
+      },
+      {
+        "archetype": "TPSP and regulatory friction",
+        "objection": "Any system that touches our knowledge architecture goes through our Third-Party Service Provider process. That's months of scrutiny.",
+        "counter_anchor": "Your own 20-F names AI as a risk factor — you've built governance processes for exactly this.",
+        "counter": "We should front-load the TPSP review, not wait for it. Stack Internal holds engineering knowledge — not customer data. Attribution, SME validation, and Content Health are designed specifically to satisfy the model-risk and data-lineage questions your compliance team will ask. We can walk your information security team through the architecture before the formal process starts.",
+        "likely_raiser": "Procurement / information security",
+        "when": "Commercial / procurement stage"
+      },
+      {
+        "archetype": "Cost discipline optics",
+        "objection": "We're mid-way through a £2bn cost programme. New vendor spend needs to pass a high bar right now.",
+        "counter_anchor": "You've quantified the cost programme — you know how to build the ROI case.",
+        "counter": "The productivity argument runs directly through your cost target: if Stack Internal reduces time-to-answer for engineers across the knowledge-heavy workflows, the cost saving is calculable using your own headcount and productivity baseline. We can help you build that model using your own internal usage data before any commercial conversation.",
+        "likely_raiser": "Bright / CFO office",
+        "when": "Commercial stage"
+      },
+      {
+        "archetype": "Silo politics",
+        "objection": "Stack Internal is seen as the IB's tool. The central AI team won't want to inherit a point solution from a budget they don't own.",
+        "counter_anchor": "O'Neill came from the IB — she knows the estate and the tooling.",
+        "counter": "The reframe is horizontal: Stack Internal becomes the knowledge substrate for the whole Group, not an IB product that got promoted. The conversation to have with Victoria is whether she can be the bridge to O'Neill's team, positioning this as a Group-level capability decision rather than an IB renewal.",
+        "likely_raiser": "Victoria / internal stakeholders",
+        "when": "Discovery / champion strategy"
+      },
+      {
+        "archetype": "Vendor lock-in risk",
+        "objection": "Making a third party the memory layer for our AI architecture creates a dependency we're not comfortable with.",
+        "counter_anchor": "Your cloud estate is deliberately multi-cloud — AWS Bedrock alongside Microsoft — you've already designed for modularity.",
+        "counter": "MCP is an open standard, not a proprietary integration. Stack Internal connects to your existing Copilot and future agent stack without creating a lock-in; the knowledge itself lives in your environment and is yours. This is a standards-based component in an architecture you've already designed to be modular.",
+        "likely_raiser": "O'Neill / platform architecture",
+        "when": "Technical evaluation"
+      },
+      {
+        "archetype": "Change fatigue",
+        "objection": "We've just onboarded 100,000 people to Copilot. We can't ask engineers to adopt another new surface right now.",
+        "counter_anchor": "91% of Copilot users said they didn't want to work without it — because it reduced friction.",
+        "counter": "Stack Internal integrates via MCP into the tools engineers are already using — it surfaces inside Copilot and IDE workflows, not as a separate destination. The adoption ask is 'validate your answer here' not 'learn a new product.' The Copilot rollout proved Barclays engineers adopt tools that make them faster — this is the same bet.",
+        "likely_raiser": "Victoria / engineering leads",
+        "when": "Discovery / champion strategy"
+      }
+    ],
+    "notes": "Lead with the Copilot-as-UI counter every time — it's the most common opener and if you don't land it in the first meeting you'll spend the rest of the relationship defending against the wrong objection. Handle TPSP before the demo, not during commercial negotiation — surprises at that stage kill timelines. The silo politics objection is the one Victoria needs help with, not us — coach her on the reframe."
+  },
+
+  "gaps": [
+    "Active user count vs. licence count — the key downsell-risk signal. Must come from Stack's own usage analytics, not public sources. Resolve before any renewal conversation.",
+    "Working-level owner of the Copilot/declarative-agent roadmap in O'Neill's org — she is the accountable executive, not the day-to-day architect. Victoria is the likely bridge to surface this name.",
+    "Victoria's Copilot evaluation criteria, owner, and decision timeline — not publicly traceable. Highest-priority internal intelligence to gather now.",
+    "Precise Barclays UK and Investment Bank total income (FY25) — Barclays' own results PDF blocked automated fetch. Pull manually from home.barclays/investor-relations before using figures externally.",
+    "Current status of Group Chief Data Officer role — sources conflict (Fayyad 2023, Pandey 2026 BUK, Kaul via aggregator). Needs fresh LinkedIn check.",
+    "Alistair's network proximity to Bright or O'Neill's office — exec-to-exec is the highest-leverage path into the central AI team. Needs a direct conversation with Alistair."
+  ],
+
+  "sources": [
+    { "type": "Primary — SEC filing", "label": "Barclays Bank PLC Form 20-F FY2025", "url": "https://www.sec.gov/", "date": "Feb 2026" },
+    { "type": "Primary — SEC filing", "label": "Barclays PLC Form 20-F FY2025", "url": "https://www.sec.gov/", "date": "Feb 2026" },
+    { "type": "Primary — SEC filing", "label": "Barclays Bank PLC Form 6-K H1 2025", "url": "https://www.sec.gov/", "date": "Aug 2025" },
+    { "type": "Primary — Barclays IR", "label": "FY25 Results Announcement, 10 Feb 2026", "url": "https://home.barclays/investor-relations/", "date": "Feb 2026" },
+    { "type": "Primary — Barclays IR", "label": "Barclays Bank PLC Annual Report FY2025", "url": "https://home.barclays/investor-relations/", "date": "Feb 2026" },
+    { "type": "Primary — Barclays", "label": "'Scaling AI at Barclays', home.barclays insights", "url": "https://home.barclays/", "date": "Jul 2025" },
+    { "type": "Primary — Barclays IB", "label": "Chief Technology Officer Forum 2026", "url": "https://ib.barclays/", "date": "2026" },
+    { "type": "Press — verified", "label": "Bloomberg Law: 'Barclays Shifts Top Investment Bank Executive to Lead AI Push'", "url": "https://news.bloomberglaw.com/", "date": "Sep 2025" },
+    { "type": "Press — verified", "label": "Computer Weekly: Barclays M365 Copilot 100,000 rollout", "url": "https://www.computerweekly.com/", "date": "2025" },
+    { "type": "Press — verified", "label": "Motley Fool: Barclays Q2 2026 earnings call transcript", "url": "https://www.fool.com/", "date": "Jul 2026" },
+    { "type": "Secondary — verify", "label": "Emerj AI Research: AI at Barclays use cases", "url": "https://emerj.com/", "date": "2025" },
+    { "type": "Secondary — verify", "label": "Klover.ai: Barclays AI Strategy analysis", "url": "https://klover.ai/", "date": "Aug 2025" },
+    { "type": "Secondary — verify", "label": "DataIQ: Amit Pandey CDO Barclays UK profile", "url": "https://www.dataiq.global/", "date": "Feb 2026" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "account-dossier",
+  "displayName": "Account Dossier",
+  "version": "1.0.0",
+  "description": "Deep internal intelligence dossier on a target account — stakeholder map, strategic intel, technical architecture, commercial signals, and objection handling.",
+  "author": { "name": "Nick Cole" },
+  "homepage": "https://github.com/nickcole1001/se-skills/blob/main/account-dossier-README.md",
+  "repository": "https://github.com/nickcole1001/se-skills",
+  "keywords": ["sales-engineering", "account-research", "meddicc"]
+}
