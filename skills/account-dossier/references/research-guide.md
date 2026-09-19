@@ -26,6 +26,7 @@ For shared employment history between stakeholders:
 ## Layer 3 — Technical architecture
 
 12. `[Account] Microsoft Copilot OR GitHub Copilot deployment 2025 2026`
+    - **Fallback:** if this finds no account-specific rollout numbers, read `references/industry-benchmarks.md` and cite the nearest same-vertical peer instead of leaving the section thin. Label it "peer evidence — not [Account]'s own" and never blend it with the account's figures. Use only entries with a named source and date; treat the rest as leads to verify, and re-verify anything older than 90 days.
 13. `[Account] developer tools engineering productivity platform`
 14. `[Account] site:linkedin.com/jobs [tech role]` — active job ads reveal team names and tech stack
 15. `[Account] engineering blog OR tech blog`

@@ -198,5 +198,6 @@ When the skill re-runs on an account with an existing dossier, it reads the prev
 |---|---|
 | `SKILL.md` | Skill definition — loaded by Claude Code |
 | `references/research-guide.md` | 19-search sequence, quality bars per layer, value hypothesis templates, MEDDICC scoring guide, RAG health logic |
+| `references/industry-benchmarks.md` | Dated, sourced peer stats (banking, auto) used as labelled fallback evidence when the account hasn't disclosed its own; refresh quarterly |
 | `assets/example-config.json` | Complete worked example (Barclays) — copy and replace content |
 | `scripts/build_dossier.js` | Node.js script that renders the config to a self-contained HTML file |

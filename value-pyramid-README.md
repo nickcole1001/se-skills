@@ -200,5 +200,6 @@ Copy to the outputs directory and present the file. In chat: one-line-per-slide 
 |---|---|
 | `SKILL.md` | Skill definition — loaded by Claude Code |
 | `references/research-guide.md` | Search sequence, quality bars per level, gap argument patterns, objection counter formula |
+| `references/industry-benchmarks.md` | Dated, sourced peer stats (banking, auto) used to fill level 4 when fewer than 6 account-specific stats exist, tagged "industry benchmark"; refresh quarterly |
 | `assets/example-config.json` | Complete worked example (Santander) — copy and replace content |
 | `scripts/build_deck.js` | Node.js script that renders the config to a branded .pptx file |

@@ -25,6 +25,7 @@ Produces two things: a research summary in chat (with citations) and a 7-slide b
 ## Judgment calls the script doesn't make
 
 - **Partnerships are assets, not threats.** If the account has a named AI vendor partnership, the gap slide positions the product underneath it, never against it.
+- **Benchmarks are a labelled fallback.** If level 4 has fewer than 6 account-specific stats, fill the gaps from `references/industry-benchmarks.md` and tag them "industry benchmark" so they're never mistaken for the account's own numbers. Account figures always come first.
 - **Facts over adjectives.** If a level can't be filled with dated, quantified, attributable material, say so in chat and thin that level rather than padding it with industry generalities.
 - **Shareability.** The deck must contain only public information — no CRM data, private conversations, or internal deal knowledge — so it can be circulated internally without review.
 - **Different product?** The default gap arguments are Stack Internal's (see research guide). For another product, keep the argument shape: their-stated-fact → our-mechanism, one row each.
