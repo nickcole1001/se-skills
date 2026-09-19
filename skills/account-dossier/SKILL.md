@@ -66,6 +66,8 @@ The dossier has no slides — it has collapsible sections. The objection handlin
 
 **Facts over inference.** If the relationship matrix shows two people worked at the same firm for the same period, say that. Don't add "they likely know each other well." The SE adds qualitative context from their own conversations.
 
+**Peer evidence is labelled.** If Layer 3 research finds no account-specific copilot/AI rollout numbers, cite the nearest same-vertical peer from `references/industry-benchmarks.md` rather than leaving the section thin — clearly marked as peer evidence, never blended with the account's own figures.
+
 **Prospect vs. existing.** The branching question changes more than MEDDICC — the "why now" in the value hypothesis is also different (external trigger for prospects; renewal/expansion timeline for existing customers). The config has both variants; the script suppresses the irrelevant one.
 
 **RAG health is honest.** If a layer couldn't be adequately researched, the badge goes red with a note explaining what's missing — not green because the section exists. An honest gap is more useful than a padded section.

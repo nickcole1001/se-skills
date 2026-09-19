@@ -15,6 +15,8 @@ Run these searches (adapt names/years to the account and current date):
 
 Prefer primary sources (the account's own newsroom, investor relations PDFs, exec bylines) over aggregators. Fetch full articles when snippets are thin.
 
+**Fallback for level 4:** the account's own numbers always come first. If fewer than 6 account-specific proof points surface after search 5, fill the remaining slots from `references/industry-benchmarks.md` (same-vertical peers, dated and sourced). Tag each one visibly as "industry benchmark" in the stat grid, and never blend them with the account's disclosed figures. Use only entries with a named source and date, and re-verify anything older than 90 days before it goes in a live deck.
+
 ## What each level needs
 
 | Level | Contents | Quality bar |
